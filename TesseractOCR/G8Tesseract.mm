@@ -342,7 +342,7 @@ namespace tesseract {
 {
     if (self.isEngineConfigured) {
         [self.variables enumerateKeysAndObjectsUsingBlock:^(NSString *key, NSString *value, BOOL *stop) {
-            _tesseract->SetVariable(key.UTF8String, value.UTF8String);
+          self->_tesseract->SetVariable(key.UTF8String, value.UTF8String);
         }];
     }
 }
