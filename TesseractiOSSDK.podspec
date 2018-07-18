@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.header_dir		    = 'TesseractOCR'
   s.name                    = 'TesseractiOSSDK'
-  s.version                 = '4.0.1'
+  s.version                 = '4.0.2'
 
   s.summary                 = 'Use Tesseract OCR in iOS projects written in either Objective-C or Swift.'
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.source                  = { :git => 'https://github.com/msgrizz/TesseractiOSSDK.git', :tag => s.version.to_s }
 
   s.platform                = :ios, "8.1"
-  s.source_files            = 'TesseractOCR/*.{h,m,mm}', 'TesseractOCR/include/**/*.h'
+  s.source_files            = 'TesseractOCR/*.{h,m,mm,hpp}', 'TesseractOCR/include/**/*.h', 'TesseractOCR/include/**/*.hpp'
   s.private_header_files    = 'TesseractOCR/include/**/*.h'
   s.requires_arc            = true
   s.frameworks              = 'UIKit', 'Foundation'
