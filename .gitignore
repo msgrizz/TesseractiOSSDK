@@ -14,6 +14,8 @@ xcuserdata
 *.xccheckout
 *.moved-aside
 DerivedData
+*.framework
+
 *.xcuserstate
 
 ### CocoaPods ###
