@@ -7,11 +7,11 @@ Easy and fast.**
 
 These are the current versions of the upstream bundled libraries within the framework that this repository provides:
 
-* Tesseract 3.03-rc1 ([homepage](https://code.google.com/p/tesseract-ocr/))
-* Leptonica 1.72 ([homepage](http://leptonica.org/))
+* Tesseract 4.00.00alpha ([homepage](https://github.com/tesseract-ocr/tesseract))
+* Leptonica 1.74.4 ([homepage](http://leptonica.org/))
 * Image libraries (Thx to ashtons and his [libtiff-ios] (https://github.com/ashtons/libtiff-ios) port):
-- Libtiff 4.0.4 ([homepage](http://www.remotesensing.org/libtiff/))
-- Libpng 1.6.18 ([homepage](http://www.libpng.org/pub/png/libpng.html))
+- Libtiff 4.0.8 ([homepage](http://www.remotesensing.org/libtiff/))
+- Libpng 1.6.31 ([homepage](http://www.libpng.org/pub/png/libpng.html))
 - Libjpeg 9a ([homepage](http://libjpeg.sourceforge.net/))
 
 **All libs are with bitcode integrated**
@@ -54,6 +54,6 @@ Contributors
 =================
 
 Daniele Galiotto (founder) - iOS Freelance Developer -
-**[www.nexor.it](http://www.nexor.it)**
+**[www.g8production.com](http://www.g8production.com)**
 
 Kevin Conley - **[www.kevintechnology.com](http://www.kevintechnology.com)**
